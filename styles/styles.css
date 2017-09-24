@@ -1,0 +1,59 @@
+
+
+.home {
+    
+    background: url(inge-maria-28163.jpg) no-repeat center center fixed;
+    /* align-items: center; */
+    /* display: flex; */
+    /* height: 1000px; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 3000px;
+    width: 4000px;
+    text-align: center;
+}
+
+.homeDiv {
+    position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+    width: 90%;
+    
+}
+
+form{
+    align-items: center;
+    height: 800px;
+    width: 1200px;
+}
+
+
+.h1Home {
+    
+    color: blue;
+    
+}
+
+.display-temp {
+    display: inline-block;
+    width: 150px;
+  }
+
+  h3 {
+    float: left;
+    white-space: nowrap;
+    font-size: 40px;
+  }
+
+  .display-temp {
+    text-align: left;
+  }
+
+  

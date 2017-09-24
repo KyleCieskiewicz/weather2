@@ -1,0 +1,34 @@
+<section >
+    <div >
+      <h1 ng-model="city">A weather forecast for: {{weather.name}}</h1>
+    </div>
+     <div >
+     
+
+     <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Date: {{weather.dt * 1000 | date: 'longDate'}}</h3>
+              </div>
+            <div class="panel-body">
+              <span class='display-temp'>Weather:</span> {{weather.weather[0].main}} 
+              <br>
+              <span class='display-temp'>Morning:</span> {{weather.main.temp | number: 0}} <br>
+              <span class='display-temp'>Day:</span> {{weather.main.temp_max | number: 0}}<br> 
+              <span class='display-temp'>Evening:</span> {{weather.main.temp_min | number: 0}}
+            </div>
+          </div>
+        </div>
+      </div>
+     
+          
+       
+         
+  </section>
+
+  <div >
+      <div>
+       <input type="button" ui-sref='yourForecast({city: weather.name})' value="Forecast"></button>
+      </div>
+  </div>
