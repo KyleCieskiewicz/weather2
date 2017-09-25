@@ -4,4 +4,4 @@ angular.module('app').controller('weatherController', function($scope, weatherSe
         $scope.weather = response.data;
         
     })
-    })
+})

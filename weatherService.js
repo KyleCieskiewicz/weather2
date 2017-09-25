@@ -1,5 +1,4 @@
-angular.module('app').service('weatherService', 
-function($http){
+angular.module('app').service('weatherService', function($http){
 
 this.weatherResult = function(city){
     

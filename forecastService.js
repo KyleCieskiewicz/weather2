@@ -1,5 +1,4 @@
-angular.module('app')
-.service('forecastService', function($http, $q) {
+angular.module('app').service('forecastService', function($http, $q) {
 
     this.forecastResult = function(city) {
         return $http({

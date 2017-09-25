@@ -1,5 +1,4 @@
-angular.module('app')
-.controller('forecastController', function($scope, $stateParams, forecastService) {
+angular.module('app').controller('forecastController', function($scope, $stateParams, forecastService) {
     $scope.city = "";
     forecastService.forecastResult($stateParams.city).then(function(res) { 
         var days = res.list;
